@@ -130,7 +130,7 @@ public class MainActivity extends AppCompatActivity {
                 runOnUiThread(new Runnable() {
                     @Override
                     public void run() {
-                        progressDialog.setProgress(1000);
+                        progressDialog.setProgress(100);
                         progressDialog.dismiss();
                         Toast.makeText(activity, "Success!!! Ouput path: "+outputPath, Toast.LENGTH_LONG).show();
                     }
